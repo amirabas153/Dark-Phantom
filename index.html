@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DARK PHANTOM</title>
+<style>
+body {
+  background:#050b09;
+  color:#00ff88;
+  font-family:monospace;
+  text-align:center;
+  padding:25px;
+}
+.box {
+  border:1px solid #00ff88;
+  border-radius:15px;
+  padding:25px;
+  margin-top:50px;
+}
+button {
+  background:#00ff88;
+  border:0;
+  padding:15px 25px;
+  border-radius:8px;
+  font-weight:bold;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>👾 DARK PHANTOM</h1>
+<p id="status">SYSTEM READY...</p>
+<button onclick="start()">START</button>
+</div>
+<script>
+function start(){
+ document.getElementById("status").innerText =
+ "ACCESS GRANTED... JUST A PRANK! 😂";
+}
+</script>
+</body>
+</html>
